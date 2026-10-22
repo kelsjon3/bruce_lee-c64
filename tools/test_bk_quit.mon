@@ -1,0 +1,3 @@
+bk 080b
+command 1 "r; d 080b 0820; quit"
+x

@@ -1,0 +1,5 @@
+r
+d 070b 0730
+bank ram
+bsave "dumps/clean_quick_ram.bin" 0 0000 ffff
+quit

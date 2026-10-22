@@ -1,0 +1,19 @@
+bk 2800
+g
+bk 2977
+g 28f3
+del 1
+del 2
+del 3
+bk c500
+g 0340
+del 1
+bk c584
+g c567
+del 1
+bk 0400
+g c5aa
+del 1
+bk 152c if CYCLES > 130000000
+g
+quit

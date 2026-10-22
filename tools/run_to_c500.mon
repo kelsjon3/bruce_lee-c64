@@ -1,0 +1,17 @@
+bk 2800
+g
+bk 2977
+g 28f3
+del 1
+del 2
+del 3
+bk c500
+g 0340
+r
+d c500 c560
+scrsh "dumps/screen_c500.png"
+bank ram
+bsave "dumps/ram_c500.bin" 0 0000 ffff
+bank cpu
+bsave "dumps/cpu_c500.bin" 0 0000 ffff
+quit

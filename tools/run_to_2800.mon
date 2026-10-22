@@ -1,0 +1,7 @@
+bk 2800
+g
+r
+d 2800 2860
+scrsh "dumps/screen_2800.png"
+bsave "dumps/mem_2800.bin" 0 0000 ffff
+quit

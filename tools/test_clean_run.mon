@@ -1,0 +1,12 @@
+bk 0400
+g
+r
+d 0400 0430
+bk 070b
+g
+r
+d 070b 0730
+scrsh "dumps/screen_clean_prg_title.png"
+bank ram
+bsave "dumps/clean_prg_ram.bin" 0 0000 ffff
+quit

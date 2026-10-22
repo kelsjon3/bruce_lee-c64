@@ -1,0 +1,11 @@
+bk 0400
+g
+r
+d 0400 0430
+bk 070b
+g
+r
+d 070b 0730
+bank ram
+bsave "dumps/clean_prg_ram_at_070b.bin" 0 0000 ffff
+quit

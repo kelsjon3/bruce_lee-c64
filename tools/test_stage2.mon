@@ -1,0 +1,11 @@
+bk 2800
+g
+bk 2977
+g 28f3
+bk 0802
+g 0340
+r
+d 0802 0840
+scrsh "dumps/screen_0802.png"
+bsave "dumps/mem_0802.bin" 0 0000 ffff
+quit
